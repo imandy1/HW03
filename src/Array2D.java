@@ -15,6 +15,62 @@ public class Array2D <T>{
 	public Array2D(int[][] a){
 		
 	}
+	
+	public void addFirstCol(){
+		
+	}
+	public void addFirstRow(){
+		
+	}
+	public void addLastCol(){
+		
+	}
+	public void addLastRow(){
+		
+	}
+	//for 5
+	public void addCol(int index){
+		
+	}
+	//for 5
+	public void addRow(int index){
+		
+	}
+	public void deleteFirstCol(){
+		
+	}
+	public void deleteFirstRow(){
+		
+	}
+	public void deleteLastCol(){
+		
+	}
+	public void deleteLastRow(){
+		
+	}
+	//for 5
+	public void deleteCol(){
+		
+	}
+	//for 5
+	public void deleteRow(){
+		
+	}
+	public T get(int row, int col){
+		
+	}
+	public T getCol(int col){
+		
+	}
+	public T getRow(int row){
+		
+	}
+	public int colSize(){
+		
+	}
+	public int rowSize(){
+		
+	}
 
 
 	
