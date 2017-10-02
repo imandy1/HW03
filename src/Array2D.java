@@ -16,11 +16,36 @@ public class Array2D <T>{
 		
 	}
 	
+	public boolean isEmpty(){
+		if(head == null){
+			return true;
+		}
+		else{
+			return false;
+		}
+	}
 	public void addFirstCol(){
+		Array2DNode newNode = new Array2DNode();
+		
+		if(isEmpty()){
+			head = newNode;
+		}
+		else{
+			newNode.right = head;
+			head = newNode;
+		}
 		
 	}
 	public void addFirstRow(){
+		Array2DNode newNode = new Array2DNode();
 		
+		if(isEmpty()){
+			head = newNode;
+		}
+		else{
+			newNode.down = head;
+			head = newNode;
+		}
 	}
 	public void addLastCol(){
 		
@@ -56,20 +81,20 @@ public class Array2D <T>{
 	public void deleteRow(){
 		
 	}
-	public T get(int row, int col){
-		
-	}
-	public T getCol(int col){
-		
-	}
-	public T getRow(int row){
-		
-	}
+//	public T get(int row, int col){
+//		
+//	}
+//	public T getCol(int col){
+//		
+//	}
+//	public T getRow(int row){
+//		
+//	}
 	public int colSize(){
-		
+		return cols;
 	}
 	public int rowSize(){
-		
+		return rows;
 	}
 
 
